@@ -1,0 +1,18 @@
+{
+  "name": "mackayi",
+  "description": "Keith MacKay's Claude Code plugin marketplace",
+  "owner": {
+    "name": "Keith MacKay",
+    "url": "https://github.com/keithmackay"
+  },
+  "plugins": [
+    {
+      "name": "sessionstats",
+      "source": {
+        "source": "github",
+        "repo": "keithmackay/sessionstats"
+      },
+      "description": "Auto stats tracker plugin (total aggregated time/cost/tokens per Claude Code project)"
+    }
+  ]
+}
