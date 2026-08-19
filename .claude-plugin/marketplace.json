@@ -15,10 +15,10 @@
       "description": "Auto stats tracker plugin (total aggregated time/tokens per Claude Code project across sessions/devs)"
     },
     {
-      "name": "skillporter",
+      "name": "port-skill",
       "source": {
         "source": "github",
-        "repo": "keithmackay/skillporter"
+        "repo": "keithmackay/port-skill"
       },
       "description": "Ports a skill/plugin/slash command between Claude Code, Codex, Antigravity, Gemini CLI"
     },
@@ -31,10 +31,10 @@
       "description": "Evaluate a project for potential improvements. Strictly evaluate-and-report \u2014 never modifies files"
     },
     {
-      "name": "urleval",
+      "name": "url-eval",
       "source": {
         "source": "github",
-        "repo": "keithmackay/urleval"
+        "repo": "keithmackay/url-eval"
       },
       "description": "Scores candidate domain names/URLs across 8 dimensions, checks availability, produces a report"
     },
@@ -87,10 +87,10 @@
       "description": "Starts a new project from scratch: template copy, README, git/GitHub setup, then guided design and implementation planning"
     },
     {
-      "name": "gitrelease",
+      "name": "git-release",
       "source": {
         "source": "github",
-        "repo": "keithmackay/gitrelease"
+        "repo": "keithmackay/git-release"
       },
       "description": "Preps a project for public GitHub release: MIT license, README/.gitignore checks, remote creation, branch protection, tagged release"
     },
@@ -101,6 +101,14 @@
         "repo": "keithmackay/pseudocodify"
       },
       "description": "Converts a codebase into language-agnostic pseudocode, for porting to a new language or documenting unfamiliar code"
+    },
+    {
+      "name": "do-retro",
+      "source": {
+        "source": "github",
+        "repo": "keithmackay/do-retro"
+      },
+      "description": "Generates/updates a PROJECT_HISTORY.md: git commits, design decisions, every user prompt, plus retroactive-learning hindsight lessons"
     }
   ]
 }

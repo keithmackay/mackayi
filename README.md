@@ -24,33 +24,34 @@ claude plugin install <plugin-name>@mackayi --scope user
 | Plugin | Repo |
 |--------|------|
 | [`sessionstats`](#sessionstats) | [keithmackay/sessionstats](https://github.com/keithmackay/sessionstats) |
-| [`skillporter`](#skillporter) | [keithmackay/skillporter](https://github.com/keithmackay/skillporter) |
+| [`port-skill`](#port-skill) | [keithmackay/port-skill](https://github.com/keithmackay/port-skill) |
 | [`improve-this`](#improve-this) | [keithmackay/improve-this](https://github.com/keithmackay/improve-this) |
-| [`urleval`](#urleval) | [keithmackay/urleval](https://github.com/keithmackay/urleval) |
+| [`url-eval`](#url-eval) | [keithmackay/url-eval](https://github.com/keithmackay/url-eval) |
 | [`plsfix`](#plsfix) | [keithmackay/plsfix](https://github.com/keithmackay/plsfix) |
 | [`acem-cost-estimation`](#acem-cost-estimation) | [keithmackay/estimator](https://github.com/keithmackay/estimator) |
 | [`wikify`](#wikify) | [keithmackay/wikifyskill](https://github.com/keithmackay/wikifyskill) |
 | [`readme`](#readme-1) | [keithmackay/ReadMeSkill](https://github.com/keithmackay/ReadMeSkill) |
 | [`product-discovery-cagan`](#product-discovery-cagan) | [keithmackay/cagan-skill](https://github.com/keithmackay/cagan-skill) |
 | [`bootstrap`](#bootstrap) | [keithmackay/bootstrap](https://github.com/keithmackay/bootstrap) |
-| [`gitrelease`](#gitrelease) | [keithmackay/gitrelease](https://github.com/keithmackay/gitrelease) |
+| [`git-release`](#git-release) | [keithmackay/git-release](https://github.com/keithmackay/git-release) |
 | [`pseudocodify`](#pseudocodify) | [keithmackay/pseudocodify](https://github.com/keithmackay/pseudocodify) |
+| [`do-retro`](#do-retro) | [keithmackay/do-retro](https://github.com/keithmackay/do-retro) |
 
 ### sessionstats
 
 Auto-tracks Claude Code sessions: hooks fire on session start/end to record project name, timestamp, session ID, duration, and cost/token metrics parsed from the session transcript against a built-in pricing table. Data is stored per-project in `.sessionstats/session_stats.json` with a regenerated markdown view. Provides `/session_stats` (per-project summary) and `/sessionstats_report` (cross-project totals, filterable by tag), plus per-model breakdown, orphan/crash detection, tagging, and multi-user support. Runs automatically once installed — no manual invocation needed.
 
-### skillporter
+### port-skill
 
-Ports a skill/plugin/slash command between four coding-agent platforms (Claude Code, Codex, Antigravity, Gemini CLI) via `/skillporter <path-to-skill-directory> [--dry-run]`. Detects the source platform, generates the required manifest/context files for each target platform, adapts the SKILL.md content, and documents platform-specific feature gaps in a `## Platform Limitations` section and compatibility matrix. Also rewrites the skill's README with per-platform install instructions and validates every generated file before finishing.
+Ports a skill/plugin/slash command between four coding-agent platforms (Claude Code, Codex, Antigravity, Gemini CLI) via `/port-skill <path-to-skill-directory> [--dry-run]`. Detects the source platform, generates the required manifest/context files for each target platform, adapts the SKILL.md content, and documents platform-specific feature gaps in a `## Platform Limitations` section and compatibility matrix. Also rewrites the skill's README with per-platform install instructions and validates every generated file before finishing.
 
 ### improve-this
 
 An evaluate-only review skill that inspects a project and reports potential improvements without ever modifying files. Infers the project type, proposes tailored evaluation categories (UI/UX, code efficiency, test coverage, security for code; clarity, completeness, redundancy, token efficiency for docs/skills), then produces a priority-ranked, categorized list of findings with Impact/Confidence ratings. Can optionally save the report and generate a phased implementation plan.
 
-### urleval
+### url-eval
 
-Scores candidate domain names/URLs across 8 weighted, research-backed dimensions (memorability, spelling reliability, pronunciation, brand fit, relevance, competitor overlap, TLD appropriateness, etc.) via `/urleval`. Checks live availability via web search, generates and scores alternative name suggestions, and produces a structured report with top-3 recommendations and a full score table. An `--update` flag refreshes the baked-in scoring research via live web search.
+Scores candidate domain names/URLs across 8 weighted, research-backed dimensions (memorability, spelling reliability, pronunciation, brand fit, relevance, competitor overlap, TLD appropriateness, etc.) via `/url-eval`. Checks live availability via web search, generates and scores alternative name suggestions, and produces a structured report with top-3 recommendations and a full score table. An `--update` flag refreshes the baked-in scoring research via live web search.
 
 ### plsfix
 
@@ -76,13 +77,17 @@ Applies Marty Cagan/SVPG product-management methodology (*INSPIRED*, *EMPOWERED*
 
 Starts a new software project from scratch: copies template files, sets up `README.md`, initializes git, optionally creates a GitHub repo (public/private), then guides an idea-refinement design session and produces a full phased implementation plan written to `docs/plans/`.
 
-### gitrelease
+### git-release
 
 Prepares a project for public release on GitHub: adds an MIT license, verifies `README.md` and `.gitignore`, creates a GitHub remote if one doesn't exist, applies branch protection requiring PRs, and cuts a tagged GitHub release.
 
 ### pseudocodify
 
 Wraps the [`pseudocodify`](https://github.com/keithmackay/pseudocodify) CLI to convert a codebase into human-readable, language-agnostic pseudocode. Analyzes the codebase in two phases — building a structured map, then generating per-file pseudocode using that map for cross-file coherence — in CLRS/Cormen, Structured English, or Pascal-like style, with incremental re-runs and a Recursive Language Model fallback for codebases exceeding context limits. Useful as a first step before porting logic to a new language, or for documenting unfamiliar code without reading every file.
+
+### do-retro
+
+Generates or updates a `docs/PROJECT_HISTORY.md` chronicling a project's development history: git commits, design decisions, and every user prompt pulled from Claude Code session transcripts, plus a retroactive-learning section of hindsight lessons. Supports flags to generate subsets into separate files (e.g. `--prompts`). Triggers on "build story," "document how this was built," "do a retro," or "do-retro."
 
 ## Adding a plugin
 
