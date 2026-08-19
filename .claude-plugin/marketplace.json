@@ -77,6 +77,30 @@
         "repo": "keithmackay/cagan-skill"
       },
       "description": "Applies Marty Cagan/SVPG product methodology (INSPIRED/EMPOWERED/TRANSFORMED)"
+    },
+    {
+      "name": "bootstrap",
+      "source": {
+        "source": "github",
+        "repo": "keithmackay/bootstrap"
+      },
+      "description": "Starts a new project from scratch: template copy, README, git/GitHub setup, then guided design and implementation planning"
+    },
+    {
+      "name": "gitrelease",
+      "source": {
+        "source": "github",
+        "repo": "keithmackay/gitrelease"
+      },
+      "description": "Preps a project for public GitHub release: MIT license, README/.gitignore checks, remote creation, branch protection, tagged release"
+    },
+    {
+      "name": "pseudocodify",
+      "source": {
+        "source": "github",
+        "repo": "keithmackay/pseudocodify"
+      },
+      "description": "Converts a codebase into language-agnostic pseudocode, for porting to a new language or documenting unfamiliar code"
     }
   ]
 }

@@ -32,6 +32,9 @@ claude plugin install <plugin-name>@mackayi --scope user
 | [`wikify`](#wikify) | [keithmackay/wikifyskill](https://github.com/keithmackay/wikifyskill) |
 | [`readme`](#readme-1) | [keithmackay/ReadMeSkill](https://github.com/keithmackay/ReadMeSkill) |
 | [`product-discovery-cagan`](#product-discovery-cagan) | [keithmackay/cagan-skill](https://github.com/keithmackay/cagan-skill) |
+| [`bootstrap`](#bootstrap) | [keithmackay/bootstrap](https://github.com/keithmackay/bootstrap) |
+| [`gitrelease`](#gitrelease) | [keithmackay/gitrelease](https://github.com/keithmackay/gitrelease) |
+| [`pseudocodify`](#pseudocodify) | [keithmackay/pseudocodify](https://github.com/keithmackay/pseudocodify) |
 
 ### sessionstats
 
@@ -68,6 +71,18 @@ Generates or improves a project's `README.md` by analyzing the codebase (package
 ### product-discovery-cagan
 
 Applies Marty Cagan/SVPG product-management methodology (*INSPIRED*, *EMPOWERED*, *TRANSFORMED*) to product strategy, team structure, discovery, and roadmap work. Provides frameworks including empowered vs. feature teams, the PM/design/tech-lead product trio, vision/strategy/roadmap distinctions, the four discovery risks with opportunity solution trees, and outcome-based OKR writing. Used both diagnostically (classifying a described team/artifact and flagging anti-patterns) and generatively (drafting vision docs, OKRs, discovery plans), including staged/partial adoption guidance for constrained orgs.
+
+### bootstrap
+
+Starts a new software project from scratch: copies template files, sets up `README.md`, initializes git, optionally creates a GitHub repo (public/private), then guides an idea-refinement design session and produces a full phased implementation plan written to `docs/plans/`.
+
+### gitrelease
+
+Prepares a project for public release on GitHub: adds an MIT license, verifies `README.md` and `.gitignore`, creates a GitHub remote if one doesn't exist, applies branch protection requiring PRs, and cuts a tagged GitHub release.
+
+### pseudocodify
+
+Wraps the [`pseudocodify`](https://github.com/keithmackay/pseudocodify) CLI to convert a codebase into human-readable, language-agnostic pseudocode. Analyzes the codebase in two phases — building a structured map, then generating per-file pseudocode using that map for cross-file coherence — in CLRS/Cormen, Structured English, or Pascal-like style, with incremental re-runs and a Recursive Language Model fallback for codebases exceeding context limits. Useful as a first step before porting logic to a new language, or for documenting unfamiliar code without reading every file.
 
 ## Adding a plugin
 
