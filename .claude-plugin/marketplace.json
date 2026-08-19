@@ -12,7 +12,71 @@
         "source": "github",
         "repo": "keithmackay/sessionstats"
       },
-      "description": "Auto stats tracker plugin (total aggregated time/cost/tokens per Claude Code project)"
+      "description": "Auto stats tracker plugin (total aggregated time/tokens per Claude Code project across sessions/devs)"
+    },
+    {
+      "name": "skillporter",
+      "source": {
+        "source": "github",
+        "repo": "keithmackay/skillporter"
+      },
+      "description": "Ports a skill/plugin/slash command between Claude Code, Codex, Antigravity, Gemini CLI"
+    },
+    {
+      "name": "improve-this",
+      "source": {
+        "source": "github",
+        "repo": "keithmackay/improve-this"
+      },
+      "description": "Evaluate a project for potential improvements. Strictly evaluate-and-report \u2014 never modifies files"
+    },
+    {
+      "name": "urleval",
+      "source": {
+        "source": "github",
+        "repo": "keithmackay/urleval"
+      },
+      "description": "Scores candidate domain names/URLs across 8 dimensions, checks availability, produces a report"
+    },
+    {
+      "name": "plsfix",
+      "source": {
+        "source": "github",
+        "repo": "keithmackay/plsfix"
+      },
+      "description": "Rewrites vague specs/prompts/instructions/textfiles into clear, actionable ones"
+    },
+    {
+      "name": "acem-cost-estimation",
+      "source": {
+        "source": "github",
+        "repo": "keithmackay/estimator"
+      },
+      "description": "(experimental, ymmv) ACEM methodology to estimate AI-agent build cost (time/$) for an existing or planned codebase"
+    },
+    {
+      "name": "wikify",
+      "source": {
+        "source": "github",
+        "repo": "keithmackay/wikifyskill"
+      },
+      "description": "Builds/updates knowledge wiki (augmented Karpathy pattern) + website, knowledge graph, learning plan"
+    },
+    {
+      "name": "readme",
+      "source": {
+        "source": "github",
+        "repo": "keithmackay/ReadMeSkill"
+      },
+      "description": "Creates/updates comprehensive README.md for project/repo + optional ancillary files & license"
+    },
+    {
+      "name": "product-discovery-cagan",
+      "source": {
+        "source": "github",
+        "repo": "keithmackay/cagan-skill"
+      },
+      "description": "Applies Marty Cagan/SVPG product methodology (INSPIRED/EMPOWERED/TRANSFORMED)"
     }
   ]
 }
