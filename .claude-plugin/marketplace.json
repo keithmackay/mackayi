@@ -109,6 +109,14 @@
         "repo": "keithmackay/do-retro"
       },
       "description": "Generates/updates a PROJECT_HISTORY.md: git commits, design decisions, every user prompt, plus retroactive-learning hindsight lessons"
+    },
+    {
+      "name": "tokentamer",
+      "source": {
+        "source": "github",
+        "repo": "keithmackay/tokentamer"
+      },
+      "description": "Audits Claude Code session transcripts for wasted tokens/cost: context pollution, duplicated work, idle MCPs, wrong model choice, and more"
     }
   ]
 }

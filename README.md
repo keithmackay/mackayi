@@ -36,6 +36,7 @@ claude plugin install <plugin-name>@mackayi --scope user
 | [`git-release`](#git-release) | [keithmackay/git-release](https://github.com/keithmackay/git-release) |
 | [`pseudocodify`](#pseudocodify) | [keithmackay/pseudocodify](https://github.com/keithmackay/pseudocodify) |
 | [`do-retro`](#do-retro) | [keithmackay/do-retro](https://github.com/keithmackay/do-retro) |
+| [`tokentamer`](#tokentamer) | [keithmackay/tokentamer](https://github.com/keithmackay/tokentamer) |
 
 ### sessionstats
 
@@ -67,7 +68,7 @@ Builds and maintains an LLM-compiled knowledge wiki following the "Karpathy patt
 
 ### make-readme
 
-Generates or improves a project's `README.md` by analyzing the codebase (package manifests, directory structure, CI config, entry points) to auto-detect project type, language, and framework. In Create mode, builds a full README from a section template with conditional sections; in Improve mode, maps and scores existing sections (Strong/Adequate/Weak/Missing), presents a gap report, and enhances only what's needed. Also offers to generate companion files (CONTRIBUTING.md, LICENSE, CHANGELOG.md, SECURITY.md, issue/PR templates).
+Generates or improves a project's `README.md` by analyzing the codebase (package manifests, directory structure, CI config, entry points) to auto-detect project type, language, and framework. In Create mode, builds a full README from a section template with conditional sections; in Improve mode, maps and scores existing sections (Strong/Adequate/Weak/Missing), presents a gap report, and enhances only what's needed. Also offers to generate companion files (CONTRIBUTING.md, LICENSE, CHANGELOG.md, SECURITY.md, issue/PR templates) — including, for a project that's itself a skill or plugin, a `--help`/`:help` mechanism backed by a `help.md` file.
 
 ### product-discovery-cagan
 
@@ -75,11 +76,11 @@ Applies Marty Cagan/SVPG product-management methodology (*INSPIRED*, *EMPOWERED*
 
 ### bootstrap
 
-Starts a new software project from scratch: copies template files, sets up `README.md`, initializes git, optionally creates a GitHub repo (public/private), then guides an idea-refinement design session and produces a full phased implementation plan written to `docs/plans/`.
+Starts a new software project from scratch: copies template files, sets up `README.md`, initializes git, optionally creates a GitHub repo (public/private), then guides an idea-refinement design session and produces a full phased implementation plan written to `docs/plans/`. Safe to re-run on an already-bootstrapped project — detects existing setup and never overwrites or duplicates completed steps.
 
 ### git-release
 
-Prepares a project for public release on GitHub: adds an MIT license, verifies `README.md` and `.gitignore`, creates a GitHub remote if one doesn't exist, applies branch protection requiring PRs, and cuts a tagged GitHub release.
+Prepares a project for public release on GitHub: adds an MIT license, verifies `README.md` and `.gitignore`, checks for a `--help`/`:help` mechanism if the project is itself a skill or plugin, creates a GitHub remote if one doesn't exist, applies branch protection requiring PRs, and cuts a tagged GitHub release.
 
 ### pseudocodify
 
@@ -88,6 +89,10 @@ Wraps the [`pseudocodify`](https://github.com/keithmackay/pseudocodify) CLI to c
 ### do-retro
 
 Generates or updates a `docs/PROJECT_HISTORY.md` chronicling a project's development history: git commits, design decisions, and every user prompt pulled from Claude Code session transcripts, plus a retroactive-learning section of hindsight lessons. Supports flags to generate subsets into separate files (e.g. `--prompts`). Triggers on "build story," "document how this was built," "do a retro," or "do-retro."
+
+### tokentamer
+
+Audits a project's Claude Code session transcripts to find concrete, evidence-backed opportunities to have used fewer tokens: repeated/duplicated work, context pollution, unused MCP tools, poorly-disclosed skills, bloated prompts, verbose CLAUDE.md/memory files, wrong model choices, missed memory-save opportunities, and places a deterministic script would have beaten an LLM call. Every finding cites a session id, timestamp, and quote or tool-call sequence — a bundled script parses transcript JSONL directly rather than asking the model to eyeball raw logs. Analyzes transcript history, not the codebase itself.
 
 ## Adding a plugin
 
