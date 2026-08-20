@@ -30,7 +30,7 @@ claude plugin install <plugin-name>@mackayi --scope user
 | [`plsfix`](#plsfix) | [keithmackay/plsfix](https://github.com/keithmackay/plsfix) |
 | [`acem-cost-estimation`](#acem-cost-estimation) | [keithmackay/estimator](https://github.com/keithmackay/estimator) |
 | [`wikify`](#wikify) | [keithmackay/wikifyskill](https://github.com/keithmackay/wikifyskill) |
-| [`readme`](#readme-1) | [keithmackay/ReadMeSkill](https://github.com/keithmackay/ReadMeSkill) |
+| [`make-readme`](#make-readme) | [keithmackay/make-readme](https://github.com/keithmackay/make-readme) |
 | [`product-discovery-cagan`](#product-discovery-cagan) | [keithmackay/cagan-skill](https://github.com/keithmackay/cagan-skill) |
 | [`bootstrap`](#bootstrap) | [keithmackay/bootstrap](https://github.com/keithmackay/bootstrap) |
 | [`git-release`](#git-release) | [keithmackay/git-release](https://github.com/keithmackay/git-release) |
@@ -65,7 +65,7 @@ Improves spec documents, prompts, requirements docs, or any instruction set by a
 
 Builds and maintains an LLM-compiled knowledge wiki following the "Karpathy pattern," where the LLM handles bookkeeping (page creation, cross-references, contradiction detection, confidence tracking) while the human curates source material in a `raw/` directory. Auto-detects context on invocation, routing to Init, Ingest, Query, Lint, or Learning Plan sub-workflows based on directory state. A bundled script can render the wiki into a website; also builds a knowledge graph.
 
-### readme
+### make-readme
 
 Generates or improves a project's `README.md` by analyzing the codebase (package manifests, directory structure, CI config, entry points) to auto-detect project type, language, and framework. In Create mode, builds a full README from a section template with conditional sections; in Improve mode, maps and scores existing sections (Strong/Adequate/Weak/Missing), presents a gap report, and enhances only what's needed. Also offers to generate companion files (CONTRIBUTING.md, LICENSE, CHANGELOG.md, SECURITY.md, issue/PR templates).
 

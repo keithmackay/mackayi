@@ -63,10 +63,10 @@
       "description": "Builds/updates knowledge wiki (augmented Karpathy pattern) + website, knowledge graph, learning plan"
     },
     {
-      "name": "readme",
+      "name": "make-readme",
       "source": {
         "source": "github",
-        "repo": "keithmackay/ReadMeSkill"
+        "repo": "keithmackay/make-readme"
       },
       "description": "Creates/updates comprehensive README.md for project/repo + optional ancillary files & license"
     },
