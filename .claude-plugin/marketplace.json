@@ -117,6 +117,14 @@
         "repo": "keithmackay/tokentamer"
       },
       "description": "Audits Claude Code session transcripts for wasted tokens/cost: context pollution, duplicated work, idle MCPs, wrong model choice, and more"
+    },
+    {
+      "name": "voxtral-tts",
+      "source": {
+        "source": "github",
+        "repo": "keithmackay/voxtral-tts"
+      },
+      "description": "Converts text to speech via Mistral Voxtral, delivering audio as a voice note over Discord/Telegram or as a local file"
     }
   ]
 }

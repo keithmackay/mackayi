@@ -37,6 +37,7 @@ claude plugin install <plugin-name>@mackayi --scope user
 | [`pseudocodify`](#pseudocodify) | [keithmackay/pseudocodify](https://github.com/keithmackay/pseudocodify) |
 | [`do-retro`](#do-retro) | [keithmackay/do-retro](https://github.com/keithmackay/do-retro) |
 | [`tokentamer`](#tokentamer) | [keithmackay/tokentamer](https://github.com/keithmackay/tokentamer) |
+| [`voxtral-tts`](#voxtral-tts) | [keithmackay/voxtral-tts](https://github.com/keithmackay/voxtral-tts) |
 
 ### sessionstats
 
@@ -93,6 +94,10 @@ Generates or updates a `docs/PROJECT_HISTORY.md` chronicling a project's develop
 ### tokentamer
 
 Audits a project's Claude Code session transcripts to find concrete, evidence-backed opportunities to have used fewer tokens: repeated/duplicated work, context pollution, unused MCP tools, poorly-disclosed skills, bloated prompts, verbose CLAUDE.md/memory files, wrong model choices, missed memory-save opportunities, and places a deterministic script would have beaten an LLM call. Every finding cites a session id, timestamp, and quote or tool-call sequence — a bundled script parses transcript JSONL directly rather than asking the model to eyeball raw logs. Analyzes transcript history, not the codebase itself.
+
+### voxtral-tts
+
+Converts text to speech using Mistral's Voxtral model ($0.016/1,000 chars, ~70ms latency) and delivers it as a voice note over Discord or Telegram, or hands back a local file path. Triggers on an explicit `--voice` flag or phrases like "read that to me." Supports 8 voices, `--strip-md` to clean agent output before speaking it, and `--truncate` for overly long input. Requires a `MISTRAL_API_KEY`.
 
 ## Adding a plugin
 
