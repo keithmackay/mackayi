@@ -81,7 +81,7 @@ Starts a new software project from scratch: copies template files, sets up `READ
 
 ### git-release
 
-Prepares a project for public release on GitHub: adds an MIT license, verifies `README.md` and `.gitignore`, checks for a `--help`/`:help` mechanism if the project is itself a skill or plugin, creates a GitHub remote if one doesn't exist, applies branch protection requiring PRs, and cuts a tagged GitHub release.
+Prepares a project for public release on GitHub: adds an MIT license, verifies `README.md` and `.gitignore`, checks for a `--help`/`:help` mechanism if the project is itself a skill or plugin, creates a GitHub remote if one doesn't exist, applies branch protection requiring PRs, bumps the `version` field in every plugin manifest to match the release tag (keeping skills/plugins from drifting out of sync with their own declared version), and cuts a tagged GitHub release.
 
 ### pseudocodify
 
