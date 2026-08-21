@@ -77,11 +77,11 @@ Applies Marty Cagan/SVPG product-management methodology (*INSPIRED*, *EMPOWERED*
 
 ### bootstrap
 
-Starts a new software project from scratch: copies template files, sets up `README.md`, initializes git, optionally creates a GitHub repo (public/private), then guides an idea-refinement design session and produces a full phased implementation plan written to `docs/plans/`. Safe to re-run on an already-bootstrapped project — detects existing setup and never overwrites or duplicates completed steps.
+Starts a new software project from scratch: copies template files (including a seeded `CHANGELOG.md`), sets up `README.md`, initializes git, optionally creates a GitHub repo (public/private), then guides an idea-refinement design session and produces a full phased implementation plan written to `docs/plans/`. Safe to re-run on an already-bootstrapped project — detects existing setup and never overwrites or duplicates completed steps.
 
 ### git-release
 
-Prepares a project for public release on GitHub: adds an MIT license, verifies `README.md` and `.gitignore`, checks for a `--help`/`:help` mechanism if the project is itself a skill or plugin, creates a GitHub remote if one doesn't exist, applies branch protection requiring PRs, bumps the `version` field in every plugin manifest to match the release tag (keeping skills/plugins from drifting out of sync with their own declared version), and cuts a tagged GitHub release.
+Prepares a project for public release on GitHub: adds an MIT license, verifies `README.md`, `CHANGELOG.md`, and `.gitignore`, checks for a `--help`/`:help` mechanism if the project is itself a skill or plugin, creates a GitHub remote if one doesn't exist, applies branch protection requiring PRs, bumps the `version` field in every plugin manifest to match the release tag, finalizes `CHANGELOG.md` by mechanically renaming its `Unreleased` section to the new version and date (never generating changelog prose itself), and cuts a tagged GitHub release.
 
 ### pseudocodify
 
