@@ -112,7 +112,7 @@ Starts a new software project from scratch: copies template files (including a s
 
 ### git-release
 
-Prepares a project for public release on GitHub: adds an MIT license, verifies `README.md`, `CHANGELOG.md`, and `.gitignore`, checks for a `--help`/`:help` mechanism if the project is itself a skill or plugin, creates a GitHub remote if one doesn't exist, applies branch protection requiring PRs, bumps the `version` field in every plugin manifest to match the release tag, finalizes `CHANGELOG.md` by mechanically renaming its `Unreleased` section to the new version and date (never generating changelog prose itself), and cuts a tagged GitHub release.
+Prepares a project for public release on GitHub: adds an MIT license, verifies `README.md`, `CHANGELOG.md`, and `.gitignore`, checks for a `--help`/`:help` mechanism if the project is itself a skill or plugin (adds a `--version`/`:version` command directly if missing, which reports the installed version plus a best-effort check for a newer GitHub release), creates a GitHub remote if one doesn't exist, applies branch protection requiring PRs, bumps the `version` field in every plugin manifest to match the release tag, finalizes `CHANGELOG.md` by mechanically renaming its `Unreleased` section to the new version and date (never generating changelog prose itself), offers to sync the version into any local marketplace listing, and cuts a tagged GitHub release.
 
 ### pseudocodify
 
