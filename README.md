@@ -21,23 +21,54 @@ claude plugin install <plugin-name>@mackayi --scope user
 
 ## Plugins
 
-| Plugin | Repo |
-|--------|------|
-| [`sessionstats`](#sessionstats) | [keithmackay/sessionstats](https://github.com/keithmackay/sessionstats) |
-| [`port-skill`](#port-skill) | [keithmackay/port-skill](https://github.com/keithmackay/port-skill) |
-| [`improve-this`](#improve-this) | [keithmackay/improve-this](https://github.com/keithmackay/improve-this) |
-| [`url-eval`](#url-eval) | [keithmackay/url-eval](https://github.com/keithmackay/url-eval) |
-| [`plsfix`](#plsfix) | [keithmackay/plsfix](https://github.com/keithmackay/plsfix) |
-| [`acem-cost-estimation`](#acem-cost-estimation) | [keithmackay/estimator](https://github.com/keithmackay/estimator) |
-| [`wikify`](#wikify) | [keithmackay/wikifyskill](https://github.com/keithmackay/wikifyskill) |
-| [`make-readme`](#make-readme) | [keithmackay/make-readme](https://github.com/keithmackay/make-readme) |
-| [`product-discovery-cagan`](#product-discovery-cagan) | [keithmackay/cagan-skill](https://github.com/keithmackay/cagan-skill) |
-| [`bootstrap`](#bootstrap) | [keithmackay/bootstrap](https://github.com/keithmackay/bootstrap) |
-| [`git-release`](#git-release) | [keithmackay/git-release](https://github.com/keithmackay/git-release) |
-| [`pseudocodify`](#pseudocodify) | [keithmackay/pseudocodify](https://github.com/keithmackay/pseudocodify) |
-| [`do-retro`](#do-retro) | [keithmackay/do-retro](https://github.com/keithmackay/do-retro) |
-| [`tokentamer`](#tokentamer) | [keithmackay/tokentamer](https://github.com/keithmackay/tokentamer) |
-| [`voxtral-tts`](#voxtral-tts) | [keithmackay/voxtral-tts](https://github.com/keithmackay/voxtral-tts) |
+Grouped by purpose below (a README-level convention only — `marketplace.json` itself has no category field, so this grouping isn't visible in the `/plugin` UI, just here). Version numbers reflect each repo's latest GitHub release and are kept in sync automatically by `/git-release`.
+
+### Project Lifecycle
+
+| Plugin | Version | Repo |
+|--------|---------|------|
+| [`bootstrap`](#bootstrap) | v1.1.0 | [keithmackay/bootstrap](https://github.com/keithmackay/bootstrap) |
+| [`git-release`](#git-release) | v1.0.1 | [keithmackay/git-release](https://github.com/keithmackay/git-release) |
+| [`make-readme`](#make-readme) | v1.0.0 | [keithmackay/make-readme](https://github.com/keithmackay/make-readme) |
+| [`do-retro`](#do-retro) | v1.1.0 | [keithmackay/do-retro](https://github.com/keithmackay/do-retro) |
+| [`port-skill`](#port-skill) | v1.0.0 | [keithmackay/port-skill](https://github.com/keithmackay/port-skill) |
+
+### Quality & Review
+
+| Plugin | Version | Repo |
+|--------|---------|------|
+| [`improve-this`](#improve-this) | v1.0.0 | [keithmackay/improve-this](https://github.com/keithmackay/improve-this) |
+| [`plsfix`](#plsfix) | v1.0.0 | [keithmackay/plsfix](https://github.com/keithmackay/plsfix) |
+
+### Product & Planning
+
+| Plugin | Version | Repo |
+|--------|---------|------|
+| [`product-discovery-cagan`](#product-discovery-cagan) | v1.0.0 | [keithmackay/cagan-skill](https://github.com/keithmackay/cagan-skill) |
+| [`acem-cost-estimation`](#acem-cost-estimation) | v1.0.0 | [keithmackay/estimator](https://github.com/keithmackay/estimator) |
+
+### Knowledge & Docs
+
+| Plugin | Version | Repo |
+|--------|---------|------|
+| [`wikify`](#wikify) | v1.0.0 | [keithmackay/wikifyskill](https://github.com/keithmackay/wikifyskill) |
+| [`pseudocodify`](#pseudocodify) | v1.0.0 | [keithmackay/pseudocodify](https://github.com/keithmackay/pseudocodify) |
+
+### Monitoring & Optimization
+
+| Plugin | Version | Repo |
+|--------|---------|------|
+| [`sessionstats`](#sessionstats) | v1.0.0 | [keithmackay/sessionstats](https://github.com/keithmackay/sessionstats) |
+| [`tokentamer`](#tokentamer) | v1.1.0 | [keithmackay/tokentamer](https://github.com/keithmackay/tokentamer) |
+
+### Utilities
+
+| Plugin | Version | Repo |
+|--------|---------|------|
+| [`url-eval`](#url-eval) | v1.0.0 | [keithmackay/url-eval](https://github.com/keithmackay/url-eval) |
+| [`voxtral-tts`](#voxtral-tts) | v1.0.0 | [keithmackay/voxtral-tts](https://github.com/keithmackay/voxtral-tts) |
+
+## Plugin Details
 
 ### sessionstats
 

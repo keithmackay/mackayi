@@ -12,7 +12,7 @@
         "source": "github",
         "repo": "keithmackay/sessionstats"
       },
-      "description": "Auto stats tracker plugin (total aggregated time/tokens per Claude Code project across sessions/devs)"
+      "description": "v1.0.0 — Auto stats tracker plugin (total aggregated time/tokens per Claude Code project across sessions/devs)"
     },
     {
       "name": "port-skill",
@@ -20,7 +20,7 @@
         "source": "github",
         "repo": "keithmackay/port-skill"
       },
-      "description": "Ports a skill/plugin/slash command between Claude Code, Codex, Antigravity, Gemini CLI"
+      "description": "v1.0.0 — Ports a skill/plugin/slash command between Claude Code, Codex, Antigravity, Gemini CLI"
     },
     {
       "name": "improve-this",
@@ -28,7 +28,7 @@
         "source": "github",
         "repo": "keithmackay/improve-this"
       },
-      "description": "Evaluate a project for potential improvements. Strictly evaluate-and-report \u2014 never modifies files"
+      "description": "v1.0.0 — Evaluate a project for potential improvements. Strictly evaluate-and-report — never modifies files"
     },
     {
       "name": "url-eval",
@@ -36,7 +36,7 @@
         "source": "github",
         "repo": "keithmackay/url-eval"
       },
-      "description": "Scores candidate domain names/URLs across 8 dimensions, checks availability, produces a report"
+      "description": "v1.0.0 — Scores candidate domain names/URLs across 8 dimensions, checks availability, produces a report"
     },
     {
       "name": "plsfix",
@@ -44,7 +44,7 @@
         "source": "github",
         "repo": "keithmackay/plsfix"
       },
-      "description": "Rewrites vague specs/prompts/instructions/textfiles into clear, actionable ones"
+      "description": "v1.0.0 — Rewrites vague specs/prompts/instructions/textfiles into clear, actionable ones"
     },
     {
       "name": "acem-cost-estimation",
@@ -52,7 +52,7 @@
         "source": "github",
         "repo": "keithmackay/estimator"
       },
-      "description": "(experimental, ymmv) ACEM methodology to estimate AI-agent build cost (time/$) for an existing or planned codebase"
+      "description": "v1.0.0 — (experimental, ymmv) ACEM methodology to estimate AI-agent build cost (time/$) for an existing or planned codebase"
     },
     {
       "name": "wikify",
@@ -60,7 +60,7 @@
         "source": "github",
         "repo": "keithmackay/wikifyskill"
       },
-      "description": "Builds/updates knowledge wiki (augmented Karpathy pattern) + website, knowledge graph, learning plan"
+      "description": "v1.0.0 — Builds/updates knowledge wiki (augmented Karpathy pattern) + website, knowledge graph, learning plan"
     },
     {
       "name": "make-readme",
@@ -68,7 +68,7 @@
         "source": "github",
         "repo": "keithmackay/make-readme"
       },
-      "description": "Creates/updates comprehensive README.md for project/repo + optional ancillary files & license"
+      "description": "v1.0.0 — Creates/updates comprehensive README.md for project/repo + optional ancillary files & license"
     },
     {
       "name": "product-discovery-cagan",
@@ -76,7 +76,7 @@
         "source": "github",
         "repo": "keithmackay/cagan-skill"
       },
-      "description": "Applies Marty Cagan/SVPG product methodology (INSPIRED/EMPOWERED/TRANSFORMED)"
+      "description": "v1.0.0 — Applies Marty Cagan/SVPG product methodology (INSPIRED/EMPOWERED/TRANSFORMED)"
     },
     {
       "name": "bootstrap",
@@ -84,7 +84,7 @@
         "source": "github",
         "repo": "keithmackay/bootstrap"
       },
-      "description": "Starts a new project from scratch: template copy, README, git/GitHub setup, then guided design and implementation planning"
+      "description": "v1.1.0 — Starts a new project from scratch: template copy, README, git/GitHub setup, then guided design and implementation planning"
     },
     {
       "name": "git-release",
@@ -92,7 +92,7 @@
         "source": "github",
         "repo": "keithmackay/git-release"
       },
-      "description": "Preps a project for public GitHub release: MIT license, README/.gitignore checks, remote creation, branch protection, tagged release"
+      "description": "v1.0.1 — Preps a project for public GitHub release: MIT license, README/.gitignore checks, remote creation, branch protection, tagged release"
     },
     {
       "name": "pseudocodify",
@@ -100,7 +100,7 @@
         "source": "github",
         "repo": "keithmackay/pseudocodify"
       },
-      "description": "Converts a codebase into language-agnostic pseudocode, for porting to a new language or documenting unfamiliar code"
+      "description": "v1.0.0 — Converts a codebase into language-agnostic pseudocode, for porting to a new language or documenting unfamiliar code"
     },
     {
       "name": "do-retro",
@@ -108,7 +108,7 @@
         "source": "github",
         "repo": "keithmackay/do-retro"
       },
-      "description": "Generates/updates a PROJECT_HISTORY.md: git commits, design decisions, every user prompt, plus retroactive-learning hindsight lessons"
+      "description": "v1.1.0 — Generates/updates a PROJECT_HISTORY.md: git commits, design decisions, every user prompt, plus retroactive-learning hindsight lessons"
     },
     {
       "name": "tokentamer",
@@ -116,7 +116,7 @@
         "source": "github",
         "repo": "keithmackay/tokentamer"
       },
-      "description": "Audits Claude Code session transcripts for wasted tokens/cost: context pollution, duplicated work, idle MCPs, wrong model choice, and more"
+      "description": "v1.1.0 — Audits Claude Code session transcripts for wasted tokens/cost: context pollution, duplicated work, idle MCPs, wrong model choice, and more"
     },
     {
       "name": "voxtral-tts",
@@ -124,7 +124,7 @@
         "source": "github",
         "repo": "keithmackay/voxtral-tts"
       },
-      "description": "Converts text to speech via Mistral Voxtral, delivering audio as a voice note over Discord/Telegram or as a local file"
+      "description": "v1.0.0 — Converts text to speech via Mistral Voxtral, delivering audio as a voice note over Discord/Telegram or as a local file"
     }
   ]
 }
