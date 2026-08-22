@@ -57,6 +57,7 @@ Grouped by purpose below (a README-level convention only — `marketplace.json` 
 | ------------------------------- | ------- | ----------------------------------------------------------------------- |
 | [`wikify`](#wikify)             | v1.0.0  | [keithmackay/wikifyskill](https://github.com/keithmackay/wikifyskill)   |
 | [`pseudocodify`](#pseudocodify) | v1.0.0  | [keithmackay/pseudocodify](https://github.com/keithmackay/pseudocodify) |
+| [`obstagger`](#obstagger)       | v1.2.0  | [keithmackay/obstagger](https://github.com/keithmackay/obstagger)       |
 
 ### Monitoring & Optimization
 
@@ -138,6 +139,12 @@ Audits a project's Claude Code session transcripts to find concrete, evidence-ba
 ### voxtral-tts
 
 Converts text to speech using Mistral's Voxtral model ($0.016/1,000 chars, ~70ms latency) and delivers it as a voice note over Discord or Telegram, or hands back a local file path. Triggers on an explicit `--voice` flag or phrases like "read that to me." Supports 8 voices, `--strip-md` to clean agent output before speaking it, and `--truncate` for overly long input. Requires a `MISTRAL_API_KEY`.
+
+### obstagger
+
+Fills in YAML frontmatter (`context`, `type`, `subtype`, `subsubtype`, `tags`) on Obsidian notes — a single file or an entire folder tree recursively — guided by a living per-vault taxonomy schema file. Proposes and writes new taxonomy entries and tags to the schema automatically when content doesn't fit existing ones, and `--updatetags` can build a schema from scratch by analyzing a vault's existing notes. Never silently overwrites populated frontmatter fields unless `--yolo` is passed. Works with any vault, remembering the last one used as the default for next time.
+
+[Help](https://github.com/keithmackay/obstagger/blob/main/skill/help.md) · [Changelog](https://github.com/keithmackay/obstagger/blob/main/CHANGELOG.md)
 
 ## Adding a plugin
 

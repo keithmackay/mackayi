@@ -125,6 +125,14 @@
         "repo": "keithmackay/voxtral-tts"
       },
       "description": "v1.0.0 — Converts text to speech via Mistral Voxtral, delivering audio as a voice note over Discord/Telegram or as a local file"
+    },
+    {
+      "name": "obstagger",
+      "source": {
+        "source": "github",
+        "repo": "keithmackay/obstagger"
+      },
+      "description": "v1.2.0 — Tags Obsidian notes: fills YAML frontmatter (context, type, subtype, tags) guided by a per-vault taxonomy schema, and can build/update that schema"
     }
   ]
 }
