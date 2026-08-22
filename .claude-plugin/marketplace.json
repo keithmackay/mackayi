@@ -47,10 +47,10 @@
       "description": "v1.0.0 — Rewrites vague specs/prompts/instructions/textfiles into clear, actionable ones"
     },
     {
-      "name": "acem-cost-estimation",
+      "name": "estimate-acem-cost",
       "source": {
         "source": "github",
-        "repo": "keithmackay/estimator"
+        "repo": "keithmackay/estimate-acem-cost"
       },
       "description": "v1.0.0 — (experimental, ymmv) ACEM methodology to estimate AI-agent build cost (time/$) for an existing or planned codebase"
     },
@@ -71,10 +71,10 @@
       "description": "v1.0.0 — Creates/updates comprehensive README.md for project/repo + optional ancillary files & license"
     },
     {
-      "name": "product-discovery-cagan",
+      "name": "marty-caganize",
       "source": {
         "source": "github",
-        "repo": "keithmackay/cagan-skill"
+        "repo": "keithmackay/marty-caganize"
       },
       "description": "v1.0.0 — Applies Marty Cagan/SVPG product methodology (INSPIRED/EMPOWERED/TRANSFORMED)"
     },

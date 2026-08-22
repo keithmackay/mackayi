@@ -48,8 +48,8 @@ Grouped by purpose below (a README-level convention only — `marketplace.json` 
 
 | Plugin                                                | Version | Repo                                                                  |
 | ----------------------------------------------------- | ------- | --------------------------------------------------------------------- |
-| [`product-discovery-cagan`](#product-discovery-cagan) | v1.0.0  | [keithmackay/cagan-skill](https://github.com/keithmackay/cagan-skill) |
-| [`acem-cost-estimation`](#acem-cost-estimation)       | v1.0.0  | [keithmackay/estimator](https://github.com/keithmackay/estimator)     |
+| [`marty-caganize`](#marty-caganize)                   | v1.0.0  | [keithmackay/marty-caganize](https://github.com/keithmackay/marty-caganize) |
+| [`estimate-acem-cost`](#estimate-acem-cost)           | v1.0.0  | [keithmackay/estimate-acem-cost](https://github.com/keithmackay/estimate-acem-cost) |
 
 ### Knowledge & Docs
 
@@ -99,7 +99,7 @@ Scores candidate domain names/URLs across 8 weighted, research-backed dimensions
 
 Improves spec documents, prompts, requirements docs, or any instruction set by applying 12 writing principles (Structure, Content, Delivery) synthesized from major AI-lab prompt-engineering guidance. Reads the document, flags principle violations with location, rewrites it with minimal changes (marking assumed details with `[CONFIRM]` tags), and produces a change report mapping each edit to its rationale.
 
-### acem-cost-estimation
+### estimate-acem-cost
 
 *(experimental, ymmv)* Estimates what it would cost (time/dollars) for an AI coding agent to build an existing codebase, or forecasts token + human-review cost for a planned agentic project, using the ACEM model (`Total_Cost = C_LLM + C_HITL + C_Infra`). Inventories the codebase into artifact types, assigns token estimates, applies corrective multipliers, estimates human-in-the-loop review cost, and runs a bundled calculator script (optionally Monte Carlo) to produce a p10/p50/p90 cost range rather than a single point estimate.
 
@@ -111,7 +111,7 @@ Builds and maintains an LLM-compiled knowledge wiki following the "Karpathy patt
 
 Generates or improves a project's `README.md` by analyzing the codebase (package manifests, directory structure, CI config, entry points) to auto-detect project type, language, and framework. In Create mode, builds a full README from a section template with conditional sections; in Improve mode, maps and scores existing sections (Strong/Adequate/Weak/Missing), presents a gap report, and enhances only what's needed. Also offers to generate companion files (CONTRIBUTING.md, LICENSE, CHANGELOG.md, SECURITY.md, issue/PR templates) — including, for a project that's itself a skill or plugin, a `--help`/`:help` mechanism backed by a `help.md` file.
 
-### product-discovery-cagan
+### marty-caganize
 
 Applies Marty Cagan/SVPG product-management methodology (*INSPIRED*, *EMPOWERED*, *TRANSFORMED*) to product strategy, team structure, discovery, and roadmap work. Provides frameworks including empowered vs. feature teams, the PM/design/tech-lead product trio, vision/strategy/roadmap distinctions, the four discovery risks with opportunity solution trees, and outcome-based OKR writing. Used both diagnostically (classifying a described team/artifact and flagging anti-patterns) and generatively (drafting vision docs, OKRs, discovery plans), including staged/partial adoption guidance for constrained orgs.
 
