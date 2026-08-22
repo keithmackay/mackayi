@@ -1,4 +1,4 @@
-# mackayi
+# mackayi Marketplace - Skills & Plugins
 
 Keith MacKay's Claude Code plugin marketplace. This repo hosts only the marketplace catalog (`.claude-plugin/marketplace.json`) — each listed plugin lives in its own repository and keeps its own version history, README, and release cadence.
 
@@ -19,54 +19,63 @@ For non-interactive installs, the marketplace must already be known — either a
 claude plugin install <plugin-name>@mackayi --scope user
 ```
 
-## Plugins
+## Plugins and Skills
 
+The mackayi marketplace includes a variety of plugins and skills, spanning the following categories:
+- Project Lifecycle (tools to help create, release, and document skills/plugins/apps)
+- Improve & Refine (tools to radically improve your projects and comms clarity)
+- Product & Planning (product design and estimation skills)
+- Knowledge and Docs 
 Grouped by purpose below (a README-level convention only — `marketplace.json` itself has no category field, so this grouping isn't visible in the `/plugin` UI, just here). Version numbers reflect each repo's latest GitHub release and are kept in sync automatically by `/git-release`.
 
 ### Project Lifecycle
 
-| Plugin | Version | Repo |
-|--------|---------|------|
-| [`bootstrap`](#bootstrap) | v1.1.0 | [keithmackay/bootstrap](https://github.com/keithmackay/bootstrap) |
-| [`git-release`](#git-release) | v1.0.1 | [keithmackay/git-release](https://github.com/keithmackay/git-release) |
-| [`make-readme`](#make-readme) | v1.0.0 | [keithmackay/make-readme](https://github.com/keithmackay/make-readme) |
-| [`do-retro`](#do-retro) | v1.1.0 | [keithmackay/do-retro](https://github.com/keithmackay/do-retro) |
-| [`port-skill`](#port-skill) | v1.0.0 | [keithmackay/port-skill](https://github.com/keithmackay/port-skill) |
+| Plugin                        | Version | Repo                                                                  |
+| ----------------------------- | ------- | --------------------------------------------------------------------- |
+| [`bootstrap`](#bootstrap)     | v1.1.0  | [keithmackay/bootstrap](https://github.com/keithmackay/bootstrap)     |
+| [`port-skill`](#port-skill)   | v1.0.0  | [keithmackay/port-skill](https://github.com/keithmackay/port-skill)   |
+| [`make-readme`](#make-readme) | v1.0.0  | [keithmackay/make-readme](https://github.com/keithmackay/make-readme) |
+| [`git-release`](#git-release) | v1.0.1  | [keithmackay/git-release](https://github.com/keithmackay/git-release) |
 
-### Quality & Review
+### Improve & Refine
 
-| Plugin | Version | Repo |
-|--------|---------|------|
-| [`improve-this`](#improve-this) | v1.0.0 | [keithmackay/improve-this](https://github.com/keithmackay/improve-this) |
-| [`plsfix`](#plsfix) | v1.0.0 | [keithmackay/plsfix](https://github.com/keithmackay/plsfix) |
+| Plugin                          | Version | Repo                                                                    |
+| ------------------------------- | ------- | ----------------------------------------------------------------------- |
+| [`improve-this`](#improve-this) | v1.0.0  | [keithmackay/improve-this](https://github.com/keithmackay/improve-this) |
+| [`plsfix`](#plsfix)             | v1.0.0  | [keithmackay/plsfix](https://github.com/keithmackay/plsfix)             |
 
 ### Product & Planning
 
-| Plugin | Version | Repo |
-|--------|---------|------|
-| [`product-discovery-cagan`](#product-discovery-cagan) | v1.0.0 | [keithmackay/cagan-skill](https://github.com/keithmackay/cagan-skill) |
-| [`acem-cost-estimation`](#acem-cost-estimation) | v1.0.0 | [keithmackay/estimator](https://github.com/keithmackay/estimator) |
+| Plugin                                                | Version | Repo                                                                  |
+| ----------------------------------------------------- | ------- | --------------------------------------------------------------------- |
+| [`product-discovery-cagan`](#product-discovery-cagan) | v1.0.0  | [keithmackay/cagan-skill](https://github.com/keithmackay/cagan-skill) |
+| [`acem-cost-estimation`](#acem-cost-estimation)       | v1.0.0  | [keithmackay/estimator](https://github.com/keithmackay/estimator)     |
 
 ### Knowledge & Docs
 
-| Plugin | Version | Repo |
-|--------|---------|------|
-| [`wikify`](#wikify) | v1.0.0 | [keithmackay/wikifyskill](https://github.com/keithmackay/wikifyskill) |
-| [`pseudocodify`](#pseudocodify) | v1.0.0 | [keithmackay/pseudocodify](https://github.com/keithmackay/pseudocodify) |
+| Plugin                          | Version | Repo                                                                    |
+| ------------------------------- | ------- | ----------------------------------------------------------------------- |
+| [`wikify`](#wikify)             | v1.0.0  | [keithmackay/wikifyskill](https://github.com/keithmackay/wikifyskill)   |
+| [`pseudocodify`](#pseudocodify) | v1.0.0  | [keithmackay/pseudocodify](https://github.com/keithmackay/pseudocodify) |
 
 ### Monitoring & Optimization
 
-| Plugin | Version | Repo |
-|--------|---------|------|
-| [`sessionstats`](#sessionstats) | v1.0.0 | [keithmackay/sessionstats](https://github.com/keithmackay/sessionstats) |
-| [`tokentamer`](#tokentamer) | v1.1.0 | [keithmackay/tokentamer](https://github.com/keithmackay/tokentamer) |
+| Plugin                          | Version | Repo                                                                    |
+| ------------------------------- | ------- | ----------------------------------------------------------------------- |
+| [`sessionstats`](#sessionstats) | v1.0.0  | [keithmackay/sessionstats](https://github.com/keithmackay/sessionstats) |
+| [`tokentamer`](#tokentamer)     | v1.1.0  | [keithmackay/tokentamer](https://github.com/keithmackay/tokentamer)     |
+| [`do-retro`](#do-retro)         | v1.1.0  | [keithmackay/do-retro](https://github.com/keithmackay/do-retro)         |
 
+### Marketing
+
+| Plugin                  | Version | Repo                                                            |
+| ----------------------- | ------- | --------------------------------------------------------------- |
+| [`url-eval`](#url-eval) | v1.0.0  | [keithmackay/url-eval](https://github.com/keithmackay/url-eval) |
 ### Utilities
 
-| Plugin | Version | Repo |
-|--------|---------|------|
-| [`url-eval`](#url-eval) | v1.0.0 | [keithmackay/url-eval](https://github.com/keithmackay/url-eval) |
-| [`voxtral-tts`](#voxtral-tts) | v1.0.0 | [keithmackay/voxtral-tts](https://github.com/keithmackay/voxtral-tts) |
+| Plugin                        | Version | Repo                                                                  |
+| ----------------------------- | ------- | --------------------------------------------------------------------- |
+| [`voxtral-tts`](#voxtral-tts) | v1.0.0  | [keithmackay/voxtral-tts](https://github.com/keithmackay/voxtral-tts) |
 
 ## Plugin Details
 
@@ -112,7 +121,7 @@ Starts a new software project from scratch: copies template files (including a s
 
 ### git-release
 
-Prepares a project for public release on GitHub: adds an MIT license, verifies `README.md`, `CHANGELOG.md`, and `.gitignore`, checks for a `--help`/`:help` mechanism if the project is itself a skill or plugin (adds a `--version`/`:version` command directly if missing, which reports the installed version plus a best-effort check for a newer GitHub release), creates a GitHub remote if one doesn't exist, applies branch protection requiring PRs, bumps the `version` field in every plugin manifest to match the release tag, finalizes `CHANGELOG.md` by mechanically renaming its `Unreleased` section to the new version and date (never generating changelog prose itself), offers to sync the version into any local marketplace listing, and cuts a tagged GitHub release.
+Prepares a project for public release on GitHub: adds an MIT license, verifies `README.md`, `CHANGELOG.md`, and `.gitignore`, checks for a `--help`/`:help` mechanism if the project is itself a skill or plugin (adds a `--version`/`:version` command directly if missing, which reports the installed version plus a best-effort check for a newer GitHub release), creates a GitHub remote if one doesn't exist, applies branch protection requiring PRs, bumps the `version` field in every plugin manifest to match the release tag, finalizes `CHANGELOG.md` by mechanically renaming its `Unreleased` section to the new version and date (refusing to proceed silently — and asking for confirmation instead — if `Unreleased` is empty; never generating changelog prose itself), offers to sync the version into any local marketplace listing, and cuts a tagged GitHub release.
 
 ### pseudocodify
 
