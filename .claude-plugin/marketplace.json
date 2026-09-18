@@ -116,7 +116,7 @@
         "source": "github",
         "repo": "keithmackay/tokentamer"
       },
-      "description": "v1.1.0 — Audits Claude Code session transcripts for wasted tokens/cost: context pollution, duplicated work, idle MCPs, wrong model choice, and more"
+      "description": "v1.2.0 — Audits Claude Code session transcripts for wasted tokens/cost: context pollution, duplicated work, idle MCPs, wrong model choice, and more"
     },
     {
       "name": "voxtral-tts",

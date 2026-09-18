@@ -64,7 +64,7 @@ Grouped by purpose below (a README-level convention only — `marketplace.json` 
 | Plugin                          | Version | Repo                                                                    |
 | ------------------------------- | ------- | ----------------------------------------------------------------------- |
 | [`sessionstats`](#sessionstats) | v1.0.0  | [keithmackay/sessionstats](https://github.com/keithmackay/sessionstats) |
-| [`tokentamer`](#tokentamer)     | v1.1.0  | [keithmackay/tokentamer](https://github.com/keithmackay/tokentamer)     |
+| [`tokentamer`](#tokentamer)     | v1.2.0  | [keithmackay/tokentamer](https://github.com/keithmackay/tokentamer)     |
 | [`do-retro`](#do-retro)         | v1.1.0  | [keithmackay/do-retro](https://github.com/keithmackay/do-retro)         |
 
 ### Marketing
