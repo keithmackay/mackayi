@@ -92,7 +92,7 @@
         "source": "github",
         "repo": "keithmackay/git-release"
       },
-      "description": "v1.1.0 — Claude Code skill: prepare a local git project for public GitHub release (license, branch protection, tagged release)"
+      "description": "v1.1.1 — Claude/Codex/Gemini skill: prepare a local git project for public GitHub release (license, branch protection, tagged release)"
     },
     {
       "name": "pseudocodify",
