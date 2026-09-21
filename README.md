@@ -32,46 +32,46 @@ Grouped by purpose below (a README-level convention only — `marketplace.json` 
 
 | Plugin                        | Version | Repo                                                                  |
 | ----------------------------- | ------- | --------------------------------------------------------------------- |
-| [`bootstrap`](#bootstrap)     | v1.1.0  | [keithmackay/bootstrap](https://github.com/keithmackay/bootstrap)     |
-| [`port-skill`](#port-skill)   | v1.0.0  | [keithmackay/port-skill](https://github.com/keithmackay/port-skill)   |
-| [`make-readme`](#make-readme) | v1.0.0  | [keithmackay/make-readme](https://github.com/keithmackay/make-readme) |
+| [`bootstrap`](#bootstrap)     | v1.2.0  | [keithmackay/bootstrap](https://github.com/keithmackay/bootstrap)     |
+| [`port-skill`](#port-skill)   | v1.1.0  | [keithmackay/port-skill](https://github.com/keithmackay/port-skill)   |
+| [`make-readme`](#make-readme) | v1.1.0  | [keithmackay/make-readme](https://github.com/keithmackay/make-readme) |
 | [`git-release`](#git-release) | v1.1.1  | [keithmackay/git-release](https://github.com/keithmackay/git-release) |
 
 ### Improve & Refine
 
 | Plugin                          | Version | Repo                                                                    |
 | ------------------------------- | ------- | ----------------------------------------------------------------------- |
-| [`improve-this`](#improve-this) | v1.0.0  | [keithmackay/improve-this](https://github.com/keithmackay/improve-this) |
-| [`plsfix`](#plsfix)             | v1.0.0  | [keithmackay/plsfix](https://github.com/keithmackay/plsfix)             |
+| [`improve-this`](#improve-this) | v1.1.0  | [keithmackay/improve-this](https://github.com/keithmackay/improve-this) |
+| [`plsfix`](#plsfix)             | v1.1.0  | [keithmackay/plsfix](https://github.com/keithmackay/plsfix)             |
 
 ### Product & Planning
 
 | Plugin                                                | Version | Repo                                                                  |
 | ----------------------------------------------------- | ------- | --------------------------------------------------------------------- |
-| [`marty-caganize`](#marty-caganize)                   | v1.0.0  | [keithmackay/marty-caganize](https://github.com/keithmackay/marty-caganize) |
-| [`estimate-acem-cost`](#estimate-acem-cost)           | v1.0.0  | [keithmackay/estimate-acem-cost](https://github.com/keithmackay/estimate-acem-cost) |
+| [`marty-caganize`](#marty-caganize)                   | v1.1.0  | [keithmackay/marty-caganize](https://github.com/keithmackay/marty-caganize) |
+| [`estimate-acem-cost`](#estimate-acem-cost)           | v1.1.0  | [keithmackay/estimate-acem-cost](https://github.com/keithmackay/estimate-acem-cost) |
 
 ### Knowledge & Docs
 
 | Plugin                          | Version | Repo                                                                    |
 | ------------------------------- | ------- | ----------------------------------------------------------------------- |
-| [`wikify`](#wikify)             | v1.0.0  | [keithmackay/wikifyskill](https://github.com/keithmackay/wikifyskill)   |
-| [`pseudocodify`](#pseudocodify) | v1.0.0  | [keithmackay/pseudocodify](https://github.com/keithmackay/pseudocodify) |
-| [`obstagger`](#obstagger)       | v1.2.0  | [keithmackay/obstagger](https://github.com/keithmackay/obstagger)       |
+| [`wikify`](#wikify)             | v1.1.0  | [keithmackay/wikifyskill](https://github.com/keithmackay/wikifyskill)   |
+| [`pseudocodify`](#pseudocodify) | v1.1.0  | [keithmackay/pseudocodify](https://github.com/keithmackay/pseudocodify) |
+| [`obstagger`](#obstagger)       | v1.3.0  | [keithmackay/obstagger](https://github.com/keithmackay/obstagger)       |
 
 ### Monitoring & Optimization
 
 | Plugin                          | Version | Repo                                                                    |
 | ------------------------------- | ------- | ----------------------------------------------------------------------- |
-| [`sessionstats`](#sessionstats) | v1.0.0  | [keithmackay/sessionstats](https://github.com/keithmackay/sessionstats) |
-| [`tokentamer`](#tokentamer)     | v1.2.0  | [keithmackay/tokentamer](https://github.com/keithmackay/tokentamer)     |
-| [`do-retro`](#do-retro)         | v1.1.0  | [keithmackay/do-retro](https://github.com/keithmackay/do-retro)         |
+| [`sessionstats`](#sessionstats) | v1.1.0  | [keithmackay/sessionstats](https://github.com/keithmackay/sessionstats) |
+| [`tokentamer`](#tokentamer)     | v1.3.0  | [keithmackay/tokentamer](https://github.com/keithmackay/tokentamer)     |
+| [`do-retro`](#do-retro)         | v1.2.0  | [keithmackay/do-retro](https://github.com/keithmackay/do-retro)         |
 
 ### Marketing
 
 | Plugin                  | Version | Repo                                                            |
 | ----------------------- | ------- | --------------------------------------------------------------- |
-| [`url-eval`](#url-eval) | v1.0.0  | [keithmackay/url-eval](https://github.com/keithmackay/url-eval) |
+| [`url-eval`](#url-eval) | v1.1.0  | [keithmackay/url-eval](https://github.com/keithmackay/url-eval) |
 
 ### Utilities
 
