@@ -44,7 +44,7 @@
         "source": "github",
         "repo": "keithmackay/plsfix"
       },
-      "description": "v1.1.0 — Claude/Codex/Gemini skill: rewrites vague specs/prompts/instructions/textfiles into clear, actionable ones"
+      "description": "v1.1.1 — Claude/Codex/Gemini skill: rewrites vague specs/prompts/instructions/textfiles into clear, actionable ones"
     },
     {
       "name": "estimate-acem-cost",
