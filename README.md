@@ -34,7 +34,7 @@ Grouped by purpose below (a README-level convention only — `marketplace.json` 
 | ----------------------------- | ------- | --------------------------------------------------------------------- |
 | [`bootstrap`](#bootstrap)     | v1.2.0  | [keithmackay/bootstrap](https://github.com/keithmackay/bootstrap)     |
 | [`port-skill`](#port-skill)   | v1.1.0  | [keithmackay/port-skill](https://github.com/keithmackay/port-skill)   |
-| [`make-readme`](#make-readme) | v1.1.0  | [keithmackay/make-readme](https://github.com/keithmackay/make-readme) |
+| [`make-readme`](#make-readme) | v1.2.0  | [keithmackay/make-readme](https://github.com/keithmackay/make-readme) |
 | [`git-release`](#git-release) | v1.1.2  | [keithmackay/git-release](https://github.com/keithmackay/git-release) |
 
 ### Improve & Refine

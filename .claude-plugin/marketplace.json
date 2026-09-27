@@ -68,7 +68,7 @@
         "source": "github",
         "repo": "keithmackay/make-readme"
       },
-      "description": "v1.1.0 — Claude/Codex/Gemini skill: creates/updates a comprehensive README.md for a project, plus optional ancillary files and license"
+      "description": "v1.2.0 — Claude/Codex/Gemini skill: creates/updates a comprehensive README.md for a project, plus optional ancillary files and license"
     },
     {
       "name": "marty-caganize",
