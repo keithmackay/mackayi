@@ -25,8 +25,12 @@ The mackayi marketplace includes a variety of plugins and skills, spanning the f
 - Project Lifecycle (tools to help create, release, and document skills/plugins/apps)
 - Improve & Refine (tools to radically improve your projects and comms clarity)
 - Product & Planning (product design and estimation skills)
-- Knowledge and Docs 
-Grouped by purpose below (a README-level convention only — `marketplace.json` itself has no category field, so this grouping isn't visible in the `/plugin` UI, just here). Version numbers reflect each repo's latest GitHub release and are kept in sync automatically by `/git-release`.
+- Knowledge & Docs (Karpathy wiki with research tool, graph, and learning plan; obsidian tagger tool; pseudocode creator)
+- Monitoring & Optimization (track your session details automatically, get recommendations on how to use fewer tokens, and have a look back at a project for recommendations)
+- Marketing (URL scoring tool)
+- Utilities (mistral voxtral TTS tool)
+ 
+These are grouped by purpose below (a README-level convention only — `marketplace.json` itself has no category field, so this grouping isn't visible in the `/plugin` UI, just here). Version numbers reflect each repo's latest GitHub release and are kept in sync automatically by `/git-release`.
 
 ### Project Lifecycle
 
@@ -46,10 +50,10 @@ Grouped by purpose below (a README-level convention only — `marketplace.json` 
 
 ### Product & Planning
 
-| Plugin                                                | Version | Repo                                                                  |
-| ----------------------------------------------------- | ------- | --------------------------------------------------------------------- |
-| [`marty-caganize`](#marty-caganize)                   | v1.1.0  | [keithmackay/marty-caganize](https://github.com/keithmackay/marty-caganize) |
-| [`estimate-acem-cost`](#estimate-acem-cost)           | v1.1.0  | [keithmackay/estimate-acem-cost](https://github.com/keithmackay/estimate-acem-cost) |
+| Plugin                                      | Version | Repo                                                                                |
+| ------------------------------------------- | ------- | ----------------------------------------------------------------------------------- |
+| [`marty-caganize`](#marty-caganize)         | v1.1.0  | [keithmackay/marty-caganize](https://github.com/keithmackay/marty-caganize)         |
+| [`estimate-acem-cost`](#estimate-acem-cost) | v1.1.0  | [keithmackay/estimate-acem-cost](https://github.com/keithmackay/estimate-acem-cost) |
 
 ### Knowledge & Docs
 
