@@ -47,6 +47,14 @@
       "description": "v1.1.1 — Claude/Codex/Gemini skill: rewrites vague specs/prompts/instructions/textfiles into clear, actionable ones"
     },
     {
+      "name": "humanify",
+      "source": {
+        "source": "github",
+        "repo": "keithmackay/humanify"
+      },
+      "description": "v1.0.0 — Claude skill: Detects and rewrites AI-writing tells (clichés, AI vocabulary, structural patterns) in long-form prose"
+    },
+    {
       "name": "estimate-acem-cost",
       "source": {
         "source": "github",

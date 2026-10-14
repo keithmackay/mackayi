@@ -47,6 +47,7 @@ These are grouped by purpose below (a README-level convention only — `marketpl
 | ------------------------------- | ------- | ----------------------------------------------------------------------- |
 | [`improve-this`](#improve-this) | v1.1.0  | [keithmackay/improve-this](https://github.com/keithmackay/improve-this) |
 | [`plsfix`](#plsfix)             | v1.1.1  | [keithmackay/plsfix](https://github.com/keithmackay/plsfix)             |
+| [`humanify`](#humanify)         | v1.0.0  | [keithmackay/humanify](https://github.com/keithmackay/humanify)         |
 
 ### Product & Planning
 
@@ -114,6 +115,12 @@ Scores candidate domain names/URLs across 8 weighted, research-backed dimensions
 Improves spec documents, prompts, requirements docs, or any instruction set by applying 12 writing principles (Structure, Content, Delivery) synthesized from major AI-lab prompt-engineering guidance. Reads the document, flags principle violations with location, rewrites it with minimal changes (marking assumed details with `[CONFIRM]` tags), and produces a change report mapping each edit to its rationale.
 
 [Help](https://github.com/keithmackay/plsfix/blob/main/help.md) · [Changelog](https://github.com/keithmackay/plsfix/blob/main/CHANGELOG.md)
+
+### humanify
+
+Detects and rewrites the linguistic patterns that make AI-drafted prose read as machine-generated: banned clichés, AI-favored vocabulary, copula substitution, participle-ending sentences, elegant variation, and list-length uniformity. Edits are targeted redlines, not a rewrite; quotes, citations, code, URLs, and proper nouns are flagged but never changed. `--dry-run` reports findings with a findings-per-1,000-words density figure without editing, and `--voice <file>` calibrates house-style checks against a sample of the author's own writing.
+
+[Help](https://github.com/keithmackay/humanify/blob/main/help.md)
 
 ### estimate-acem-cost
 
