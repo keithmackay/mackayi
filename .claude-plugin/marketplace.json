@@ -52,7 +52,7 @@
         "source": "github",
         "repo": "keithmackay/humanify"
       },
-      "description": "v1.0.0 — Claude skill: Detects and rewrites AI-writing tells (clichés, AI vocabulary, structural patterns) in long-form prose"
+      "description": "v1.1.0 — Claude/Codex/Gemini skill: Detects and rewrites AI-writing tells (clichés, AI vocabulary, structural patterns) in long-form prose"
     },
     {
       "name": "estimate-acem-cost",
