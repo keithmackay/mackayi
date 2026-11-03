@@ -89,7 +89,7 @@ These are grouped by purpose below (a README-level convention only — `marketpl
 
 | Plugin                                | Version | Repo                                                                                      |
 | ------------------------------------- | ------- | ----------------------------------------------------------------------------------------- |
-| [`scanskillsafety`](#scanskillsafety) | v1.1.0  | [keithmackay/scanskillsafety-skill](https://github.com/keithmackay/scanskillsafety-skill) |
+| [`scanskillsafety`](#scanskillsafety) | v1.1.1  | [keithmackay/scanskillsafety-skill](https://github.com/keithmackay/scanskillsafety-skill) |
 
 ## Plugin Details
 
