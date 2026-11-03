@@ -141,6 +141,14 @@
         "repo": "keithmackay/obstagger"
       },
       "description": "v1.3.0 — Claude/Codex/Gemini skill: tags Obsidian notes by filling YAML frontmatter guided by a per-vault taxonomy schema, and can build/update that schema"
+    },
+    {
+      "name": "scanskillsafety",
+      "source": {
+        "source": "github",
+        "repo": "keithmackay/scanskillsafety-skill"
+      },
+      "description": "v1.1.0 — Claude/Codex/Gemini skill: Offline safety scan of skills, plugins and MCP servers before you install them"
     }
   ]
 }

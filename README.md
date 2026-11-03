@@ -29,6 +29,7 @@ The mackayi marketplace includes a variety of plugins and skills, spanning the f
 - Monitoring & Optimization (track your session details automatically, get recommendations on how to use fewer tokens, and have a look back at a project for recommendations)
 - Marketing (URL scoring tool)
 - Utilities (mistral voxtral TTS tool)
+- Security (offline safety scan of a skill, plugin or MCP server before you install it)
  
 These are grouped by purpose below (a README-level convention only — `marketplace.json` itself has no category field, so this grouping isn't visible in the `/plugin` UI, just here). Version numbers reflect each repo's latest GitHub release and are kept in sync automatically by `/git-release`.
 
@@ -83,6 +84,12 @@ These are grouped by purpose below (a README-level convention only — `marketpl
 | Plugin                        | Version | Repo                                                                  |
 | ----------------------------- | ------- | --------------------------------------------------------------------- |
 | [`voxtral-tts`](#voxtral-tts) | v1.0.0  | [keithmackay/voxtral-tts](https://github.com/keithmackay/voxtral-tts) |
+
+### Security
+
+| Plugin                                | Version | Repo                                                                                      |
+| ------------------------------------- | ------- | ----------------------------------------------------------------------------------------- |
+| [`scanskillsafety`](#scanskillsafety) | v1.1.0  | [keithmackay/scanskillsafety-skill](https://github.com/keithmackay/scanskillsafety-skill) |
 
 ## Plugin Details
 
@@ -187,6 +194,12 @@ Converts text to speech using Mistral's Voxtral model ($0.016/1,000 chars, ~70ms
 Fills in YAML frontmatter (`context`, `type`, `subtype`, `subsubtype`, `tags`) on Obsidian notes — a single file or an entire folder tree recursively — guided by a living per-vault taxonomy schema file. Proposes and writes new taxonomy entries and tags to the schema automatically when content doesn't fit existing ones, and `--updatetags` can build a schema from scratch by analyzing a vault's existing notes. Never silently overwrites populated frontmatter fields unless `--yolo` is passed. Works with any vault, remembering the last one used as the default for next time.
 
 [Help](https://github.com/keithmackay/obstagger/blob/main/skill/help.md) · [Changelog](https://github.com/keithmackay/obstagger/blob/main/CHANGELOG.md)
+
+### scanskillsafety
+
+Statically scans a skill, plugin, or MCP server for known prompt-injection, exfiltration, obfuscation, secret, and destructive-command patterns before it's installed, and reports a red/yellow/green rating with the file and line of every hit. Reads the target's own files (SKILL.md, plugin manifests, commands, agents, hooks, `.mcp.json`, and the scripts its skills and plugins bundle) from a GitHub/Gitea URL or a local path, fully offline apart from that host, and never runs the target's code. The same scanner produces the safety badge on [findsafeskills](https://findsafeskills.com) listings.
+
+[Help](https://github.com/keithmackay/scanskillsafety-skill/blob/main/help.md) · [Changelog](https://github.com/keithmackay/scanskillsafety-skill/blob/main/CHANGELOG.md)
 
 ## Adding a plugin
 
