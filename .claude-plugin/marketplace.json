@@ -124,7 +124,7 @@
         "source": "github",
         "repo": "keithmackay/tokentamer"
       },
-      "description": "v1.3.0 — Claude/Codex/Gemini skill: audits Claude Code project transcripts for token-waste patterns and produces an evidence-backed report"
+      "description": "v1.6.0 — Claude/Codex/Gemini skill: audits Claude Code project transcripts for token-waste patterns and produces an evidence-backed report"
     },
     {
       "name": "voxtral-tts",

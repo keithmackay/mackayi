@@ -70,7 +70,7 @@ These are grouped by purpose below (a README-level convention only — `marketpl
 | Plugin                          | Version | Repo                                                                    |
 | ------------------------------- | ------- | ----------------------------------------------------------------------- |
 | [`sessionstats`](#sessionstats) | v1.1.0  | [keithmackay/sessionstats](https://github.com/keithmackay/sessionstats) |
-| [`tokentamer`](#tokentamer)     | v1.3.0  | [keithmackay/tokentamer](https://github.com/keithmackay/tokentamer)     |
+| [`tokentamer`](#tokentamer)     | v1.6.0  | [keithmackay/tokentamer](https://github.com/keithmackay/tokentamer)     |
 | [`do-retro`](#do-retro)         | v1.2.0  | [keithmackay/do-retro](https://github.com/keithmackay/do-retro)         |
 
 ### Marketing
@@ -179,7 +179,7 @@ Generates or updates a `docs/PROJECT_HISTORY.md` chronicling a project's develop
 
 ### tokentamer
 
-Audits a project's Claude Code session transcripts to find concrete, evidence-backed opportunities to have used fewer tokens: repeated/duplicated work, context pollution, unused MCP tools, poorly-disclosed skills, bloated prompts, verbose CLAUDE.md/memory files, wrong model choices, missed memory-save opportunities, and places a deterministic script would have beaten an LLM call. Every finding cites a session id, timestamp, and quote or tool-call sequence — a bundled script parses transcript JSONL directly rather than asking the model to eyeball raw logs. Analyzes transcript history, not the codebase itself.
+Audits a project's Claude Code session transcripts to find concrete, evidence-backed opportunities to have used fewer tokens: repeated/duplicated work, context pollution, unused MCP servers, always-loaded skill listings, costly subagent delegation, poorly-disclosed skills, bloated prompts, verbose CLAUDE.md/memory files, wrong model choices, missed memory-save opportunities, and places a deterministic script would have beaten an LLM call. Every finding cites a session id, timestamp, and quote or tool-call sequence — a bundled script parses transcript JSONL directly (including subagent transcripts) rather than asking the model to eyeball raw logs. Analyzes transcript history, not the codebase itself.
 
 [Help](https://github.com/keithmackay/tokentamer/blob/main/help.md) · [Changelog](https://github.com/keithmackay/tokentamer/blob/main/CHANGELOG.md)
 
