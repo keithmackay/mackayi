@@ -47,7 +47,7 @@ These are grouped by purpose below (a README-level convention only — `marketpl
 | Plugin                          | Version | Repo                                                                    |
 | ------------------------------- | ------- | ----------------------------------------------------------------------- |
 | [`improve-this`](#improve-this) | v1.1.0  | [keithmackay/improve-this](https://github.com/keithmackay/improve-this) |
-| [`plsfix`](#plsfix)             | v1.1.1  | [keithmackay/plsfix](https://github.com/keithmackay/plsfix)             |
+| [`plsfix`](#plsfix)             | v1.2.0  | [keithmackay/plsfix](https://github.com/keithmackay/plsfix)             |
 | [`humanify`](#humanify)         | v1.1.0  | [keithmackay/humanify](https://github.com/keithmackay/humanify)         |
 
 ### Product & Planning
