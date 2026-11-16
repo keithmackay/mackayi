@@ -89,7 +89,7 @@ These are grouped by purpose below (a README-level convention only — `marketpl
 
 | Plugin                                | Version | Repo                                                                                      |
 | ------------------------------------- | ------- | ----------------------------------------------------------------------------------------- |
-| [`scanskillsafety`](#scanskillsafety) | v1.1.1  | [keithmackay/scanskillsafety-skill](https://github.com/keithmackay/scanskillsafety-skill) |
+| [`scanskillsafety`](#scanskillsafety) | v1.3.0  | [keithmackay/scanskillsafety-skill](https://github.com/keithmackay/scanskillsafety-skill) |
 
 ## Plugin Details
 
@@ -197,7 +197,7 @@ Fills in YAML frontmatter (`context`, `type`, `subtype`, `subsubtype`, `tags`) o
 
 ### scanskillsafety
 
-Statically scans a skill, plugin, or MCP server for known prompt-injection, exfiltration, obfuscation, secret, and destructive-command patterns before it's installed, and reports a red/yellow/green rating with the file and line of every hit. Reads the target's own files (SKILL.md, plugin manifests, commands, agents, hooks, `.mcp.json`, and the scripts its skills and plugins bundle) from a GitHub/Gitea URL or a local path, fully offline apart from that host, and never runs the target's code. The same scanner produces the safety badge on [findsafeskills](https://findsafeskills.com) listings.
+Statically scans a skill, plugin, or MCP server for known prompt-injection, exfiltration, obfuscation, secret, and destructive-command patterns before it's installed, and reports a red/yellow/green rating with the file and line of every hit. Reads the target's own files (SKILL.md, plugin manifests, commands, agents, hooks, `.mcp.json`, and the scripts its skills and plugins bundle) from a GitHub/Gitea URL or a local path, fully offline apart from that host, and never runs the target's code. The same scanner produces the safety badge on [findsafeskills](https://findsafeskills.com) listings. `--deep` checks the exact commit you would install: every file with no caps, what runs at install and start-up, its packages against OSV, how it compares with findsafeskills' scan, and, if you agree to the plan, Claude reading every file in a locked-down `claude -p`; it names every service it contacts before sending anything.
 
 [Help](https://github.com/keithmackay/scanskillsafety-skill/blob/main/help.md) · [Changelog](https://github.com/keithmackay/scanskillsafety-skill/blob/main/CHANGELOG.md)
 
