@@ -148,7 +148,7 @@
         "source": "github",
         "repo": "keithmackay/scanskillsafety-skill"
       },
-      "description": "v1.3.0 — Claude/Codex/Gemini skill: Offline safety scan of skills, plugins and MCP servers before you install them, with --deep for the exact commit, every file, its packages and an optional Claude reading"
+      "description": "v1.4.0 — Claude/Codex/Gemini skill: Offline safety scan of skills, plugins and MCP servers before you install them, with --deep for the exact commit, every file, its packages and where they come from, and an optional Claude reading"
     }
   ]
 }
